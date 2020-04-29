@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<title></title>
+	<link rel="stylesheet" href="PracticalLongQ2.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <script src="wish.js" async=""></script>
+</head>
+<body>
+   <header>
+   	   <h2 style="text-align: center;color: #940418">Merry Christmas</h2>
+   	   <p style="text-align: center;">Christmas is the day when people celebrate the birth of Jesus Christ in Bethlehem two thousand years ago. People who remember Christmas as a religious holiday celebrate the birth of Jesus and his coming into this world. To them, he is recognized as the Son of God and the Savior of the world.</p>
+   </header>
+   <section style="text-align: center;color: #dde805;">
+   	   <p>Please type the Christmas Wishlist for yourself !</p>
+   	   <p>
+   	   </p><form name="form1" method="post" action="mailto:qooapp12@gmail.com" enctype="text/plain" onsubmit="return validate();">
+
+   	   	<label for="name" class="head">What is your name:</label>
+   	   	<div class="formfield">
+   	   		<input type="text" name="name" id="name" size="25" required="">
+   	   	</div>
+   	   	<label for="email">What is your email address:</label>
+   	   	<div class="formfield">
+   	   		<input type="email" name="email" id="email" size="25" required="">
+   	   	</div>
+   	   	<label for="phno">Phone No.:</label>
+   	   	<div class="formfield00">
+   	   		<input type="text" name="phno" id="phno" size="25" required="">
+   	   	</div>
+   	   	
+   	   	<label for="gender">Please select your gender:</label>
+   	   	<div class="formfield">
+   	   		<select name="gender" id="gender" required="">
+   	   			<option value="">none</option>
+   	   			<option value="Male">Male</option>
+   	   			<option value="Female">Female</option>
+   	   		</select>
+   	   	</div>
+
+   	   	<label for="present">Choose the thing that you wishes.</label>
+   	   	<div class="formfield">
+   	   		<select name="present1" id="present1" required="">
+   	   			<option value="">none</option>
+   	   			<option value="Candy">Candy</option>
+   	   			<option value="Teddy Bear">Teddy Bear</option>
+   	   			<option value="Shoes">Shoes</option>
+   	   			<option value="Christmas Hat">Christmas Hat</option>
+   	   			<option value="Turkey Dinner">Turkey Dinner</option>
+   	   		</select>
+   	   	</div>
+   	   	<label for="address">Address:</label>
+   	    <div class="formfield">
+   	    	<textarea rows="3" cols="30" name="address" id="address" required="" style="margin: 0px;width: 230px;height: 55px；"></textarea>
+   	    </div>
+   	    <div class="last">
+   	    	<button style="font-size: 1.5rem;color: #e9f026;background-color: red">Submit<i class="&#128077;"aria-hidden="true"></i></button>
+   	    	<input type="reset" name="restart">
+   	    </div>
+   	   </form>
+   </section>   
+   <footer style="text-align: center;color: white;">
+   	   <p>Wish You Have A Good Merry Christmas Present !</p>
+   	   <audio controls style="text-align: center;">
+           <source src="christmas.ogg" type="audio/ogg">
+           <source src="christmas.mp3" type="audio/mpeg">
+           Your browser does not support the audio element.
+       </audio>
+   </footer>
+</body>
+</html>
